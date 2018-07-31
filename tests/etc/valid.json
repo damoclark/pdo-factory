@@ -1,0 +1,13 @@
+{
+  "server": {
+    "driver": "pgsql",
+    "host": "localhost",
+    "dbname": "db",
+    "username": "user",
+    "password": "pass",
+    "attribute": {
+      "PDO::ATTR_TIMEOUT": 30,
+      "PDO::ATTR_ERRMODE": "PDO::ERRMODE_EXCEPTION"
+    }
+  }
+}

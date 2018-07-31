@@ -1,0 +1,25 @@
+{
+  "name": "pdo-factory/pdo-factory",
+  "description": "Factory class for creating PDO objects using credentials in external config files",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Damien Clark",
+      "email": "damo.clarky@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "PdoFactory\\": "src/"
+    }
+  },
+  "require": {
+    "webmozart/path-util": "^2.3.0",
+    "respect/validation": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3@dev"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "server": {
+    "driver": "sqlsrv",
+    "host": "localhost",
+    "username": "user",
+    "password": "pass",
+    "attribute": [
+      "bla",
+      "bla2"
+    ]
+  }
+
