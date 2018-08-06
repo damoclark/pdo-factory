@@ -68,7 +68,7 @@ class PdoFactory
   {
     $attr = $this->config->getAttributes($connection);
 
-    $pdo = new \PDO($this->config->getDSN($connection));
+    $pdo = new \PDO($this->config->getDSN($connection),$this->getUsername($connection),$this->getPassword($connection));
     foreach ($attr as $name => $value) {
       $pdo->setAttribute($name,$value);
     }
